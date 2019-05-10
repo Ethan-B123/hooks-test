@@ -1,0 +1,25 @@
+.board {
+  display: flex;
+  width: 700px;
+  background-color: #eee;
+}
+
+.column {
+  width: 100px;
+}
+.column:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+.tile {
+  clip-path: circle(40% at center);
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
